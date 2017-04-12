@@ -111,10 +111,6 @@ $config->db->port        = '3306';    //修改成节点mysql  的ip端口
 $config->db->name        = 'zentao';  
 $config->db->user        = 'root';    //修改成节点mysql  的用户名，默认root
 $config->db->password    = 'my-secret-pw'; //修改成节点mysql  的用户名，默认my-secret-pw
-$config->db->prefix      = 'zt_';
-$config->webRoot         = getWebRoot();
-$config->default->lang   = 'zh-cn';
-$config->mysqldump       = '/usr/bin/mysqldump';
 ```
 
 
