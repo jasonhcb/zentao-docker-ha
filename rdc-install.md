@@ -95,5 +95,7 @@ server {
     server_name  rdc.hand-china.com; # 修改为主机 hostname 的名称，比如:rdc.hand-china.com
 ```
 
+注：重启 此 容器
+
 
 
