@@ -1,6 +1,6 @@
 # Rdc-zentao 安装文档
 
-#### 环境要求 :
+* #### 环境要求 :
 
 #### Docker ,Docker-compose
 
