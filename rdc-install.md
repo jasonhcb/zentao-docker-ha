@@ -79,7 +79,7 @@ docker-compose up -d
 
 注意：编码为 UTF8 - utf8-general-ci
 
-### 6 .配置Nginx转发
+### 6 .node1节点配置Nginx转发
 
 docker-compose 中已经 将 nginx目录映射出来到了 /mnt/docker/rdc/nginx下
 
