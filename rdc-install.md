@@ -81,7 +81,7 @@ docker-compose up -d
 
 docker-compose 中已经 将 nginx目录映射出来到了 /mnt/docker/rdc/nginx下
 
-将  [default.conf\](./node1/default.conf)
+将  [default.conf](./node1/default.conf)
 
 
 
