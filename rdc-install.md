@@ -92,7 +92,7 @@ docker-compose up -d
 | zentaopms/module/bulletin/data | /mnt/docker/rdc/module/bulletin/data |
 | zentaopms/config | /mnt/docker/rdc/config |
 
-### 5 . node1节点导入zentao.sql
+### 5 . 导入zentao.sql
 
 创建一个名为：zentao  的数据库 , 将事先 导出 的zentao.sql 数据库 导入到数据库中。
 
