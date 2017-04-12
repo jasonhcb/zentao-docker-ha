@@ -4,7 +4,7 @@
 
 Docker ,Docker-compose
 
-#### 1 . 安装nfs网络文件系统\(centos\)
+#### 1 . 主节点上：安装nfs网络文件系统\(centos\)
 
     安装
     yum -y install nfs-utils
@@ -24,15 +24,13 @@ Docker ,Docker-compose
     # 重启服务使配置生效
     systemctl restart nfs-server
 
-
-
 #### 2 . 构建node1主节点
 
 ```
 #构建 node1 节点，节点包括以下镜像：
 (1) . mysql
 (2) . zentao
-(3) . nginx 
+(3) . nginx
 ```
 
 下载地址：[docker-compose.yml](./node1/docker-compose.yml)
@@ -42,8 +40,6 @@ Docker ,Docker-compose
 ```
 
 ```
-
-
 
 
 
