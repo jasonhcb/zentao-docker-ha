@@ -6,8 +6,7 @@ Docker ,Docker-compose
 
 #### 1 . 下载docker-compose文件
 [docker-compose.yml](docker-compose.yml)
-```
-```
+
 #### 2 .  
 
 
