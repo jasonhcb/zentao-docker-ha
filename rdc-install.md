@@ -81,7 +81,19 @@ docker-compose up -d
 
 docker-compose 中已经 将 nginx目录映射出来到了 /mnt/docker/rdc/nginx下
 
-将  [default.conf](./node1/default.conf)
+将  [default.conf](./node1/default.conf) 配置好 放入 /mnt/docker/rdc/nginx 下
+
+```
+upstream rdc {
+    ip_hash;
+    server 192.168.59.103:80;   #修改为node1 的节点ip
+    server 192.168.59.102:80;   #修改为node2 的节点ip
+}
+
+server {
+    listen       80;
+    server_name  192.168.58.103; # 修改为主机 hostname 的名称，比如:rdc.hand-china.com
+```
 
 
 
