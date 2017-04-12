@@ -92,7 +92,7 @@ upstream rdc {
 
 server {
     listen       80;
-    server_name  192.168.58.103; # 修改为主机 hostname 的名称，比如:rdc.hand-china.com
+    server_name  rdc.hand-china.com; # 修改为主机 hostname 的名称，比如:rdc.hand-china.com
 ```
 
 
