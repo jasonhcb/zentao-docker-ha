@@ -75,7 +75,7 @@ docker-compose up -d
 
 ### 5 . 导入zentao.sql
 
-将事先 导出 的zentao.sql 数据库 导入到数据库中：注意：编码为 UTF8 - utf8-general-ci
+创建一个名为：zentao  的数据库 , 将事先 导出 的zentao.sql 数据库 导入到数据库中：注意：编码为 UTF8 - utf8-general-ci
 
 ### 6 .配置Nginx转发
 
@@ -99,7 +99,21 @@ server {
 
 ### 7 .配置zentao连接数据库
 
+打开 /mnt/docker/rdc/config/my.php
 
+```php
+# 修改 host,port,name,user,password
+
+$config->db->host        = 'mysql';   //修改成节点mysql  的ip地址
+$config->db->port        = '3306';    //修改成节点mysql  的ip端口
+$config->db->name        = 'zentao';  
+$config->db->user        = 'root';
+$config->db->password    = 'my-secret-pw';
+$config->db->prefix      = 'zt_';
+$config->webRoot         = getWebRoot();
+$config->default->lang   = 'zh-cn';
+$config->mysqldump       = '/usr/bin/mysqldump';
+```
 
 
 
