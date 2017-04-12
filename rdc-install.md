@@ -5,7 +5,7 @@
 Docker ,Docker-compose
 
 #### 1 . 下载docker-compose文件
-[docker-compose.yml](docker-compose.yml)
+[docker-compose.yml](./node1/docker-compose.yml)
 
 #### 2 .  
 
