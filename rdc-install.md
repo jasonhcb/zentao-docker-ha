@@ -4,7 +4,9 @@
 
 Docker ,Docker-compose
 
-1. ### 
+## 1 . 运行docker-compose
+
+### 
 
 
 
