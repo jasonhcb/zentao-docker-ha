@@ -28,7 +28,7 @@ Docker ,Docker-compose
 
 ### 2 . 配置nfs客户端
 
-注：在所有节点都需要安装客户端
+注：所有节点都需要安装客户端
 
     # 创建nfs-client的目录，也是rdc容器的卷要挂载的目录
     mkdir /mnt/docker/rdc -p
