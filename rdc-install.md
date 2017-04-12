@@ -28,8 +28,6 @@ Docker ,Docker-compose
 
 #### 2 . 配置nfs客户端
 
-
-
 #### 3 . 构建node1主节点
 
 ```
