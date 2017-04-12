@@ -44,6 +44,8 @@ Docker ,Docker-compose
 
 ### 3 . 构建HA节点
 
+#### 3.1 构建node1主节点
+
 ```
 #构建 node1 节点，节点包括以下镜像：
 (1) . mysql
