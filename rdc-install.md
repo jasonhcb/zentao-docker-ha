@@ -61,7 +61,7 @@ Docker ,Docker-compose
 docker-compose up -d
 ```
 
-### 4 . 将备份数据资料导入到nfs
+### 4 . 将备份数据资料导入到对应nfs
 
 从 迁移 服务器 拷贝文件 到 nfs 文件夹
 
@@ -77,7 +77,7 @@ docker-compose up -d
 
 将事先 导出 的zentao.sql 数据库 导入到数据库中：注意：编码为 UTF8 - utf8-general-ci
 
-### 6 . 
+### 6 .
 
 
 
