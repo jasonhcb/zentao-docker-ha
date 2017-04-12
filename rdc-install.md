@@ -42,7 +42,7 @@ Docker ,Docker-compose
     # 查看挂载目录
     df -h
 
-### 3 . 构建node1主节点
+### 3 . 构建节点
 
 ```
 #构建 node1 节点，节点包括以下镜像：
