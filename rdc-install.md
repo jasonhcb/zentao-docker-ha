@@ -132,5 +132,7 @@ $config->db->user        = 'root';    //修改成节点mysql  的用户名，默
 $config->db->password    = 'my-secret-pw'; //修改成节点mysql  的用户名，默认my-secret-pw
 ```
 
+### 8 .访问完成
+
 
 
