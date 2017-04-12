@@ -30,7 +30,7 @@ Docker ,Docker-compose
 
 注：在所有节点都需要安装客户端
 
-    # 创建nfs-client的目录，也是gitlab容器的卷要挂载的目录
+    # 创建nfs-client的目录，也是rdc容器的卷要挂载的目录
     mkdir /mnt/docker/rdc -p
 
     # 写入配置文件，其中`172.29.1.54:/mnt/nfs/rdc`为nfs服务器端ip地址和rdc的文件共享目录，`/mnt/docker/rdc`为上面创建的目录，即rdc的容器要挂载的目录
