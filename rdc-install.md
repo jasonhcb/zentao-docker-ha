@@ -77,7 +77,11 @@ docker-compose up -d
 
 将事先 导出 的zentao.sql 数据库 导入到数据库中：注意：编码为 UTF8 - utf8-general-ci
 
-### 6 .
+### 6 .配置Nginx转发
+
+docker-compose 中已经 将 nginx目录映射出来到了 /mnt/docker/rdc/nginx下
+
+将  \[default.conf\]\(./node1/default.conf\)
 
 
 
