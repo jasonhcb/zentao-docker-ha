@@ -77,5 +77,7 @@ docker-compose up -d
 
 将事先 导出 的zentao.sql 数据库 导入到数据库中：注意：编码为 UTF8 - utf8-general-ci
 
+### 6 . 导入zentao.sql
+
 
 
