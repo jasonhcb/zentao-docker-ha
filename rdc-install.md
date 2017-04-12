@@ -4,7 +4,7 @@
 
 Docker ,Docker-compose
 
-#### 1 . 主节点上：安装nfs网络文件系统
+### 1 . 主节点上：安装nfs网络文件系统
 
 本机系统：centos为例
 
@@ -26,7 +26,7 @@ Docker ,Docker-compose
     # 重启服务使配置生效
     systemctl restart nfs-server
 
-#### 2 . 配置nfs客户端
+### 2 . 配置nfs客户端
 
 注：在所有节点都需要安装客户端
 
@@ -42,7 +42,7 @@ Docker ,Docker-compose
     # 查看挂载目录
     df -h
 
-#### 3 . 构建node1主节点
+### 3 . 构建node1主节点
 
 ```
 #构建 node1 节点，节点包括以下镜像：
