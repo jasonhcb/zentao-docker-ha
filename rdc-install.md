@@ -4,7 +4,9 @@
 
 Docker ,Docker-compose
 
-#### 1 . 主节点上：安装nfs网络文件系统\(centos\)
+#### 1 . 主节点上：安装nfs网络文件系统
+
+本机系统：centos为例
 
     安装
     yum -y install nfs-utils
@@ -24,7 +26,11 @@ Docker ,Docker-compose
     # 重启服务使配置生效
     systemctl restart nfs-server
 
-#### 2 . 构建node1主节点
+#### 2 . 配置nfs客户端
+
+
+
+#### 3 . 构建node1主节点
 
 ```
 #构建 node1 节点，节点包括以下镜像：
