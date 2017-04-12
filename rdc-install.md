@@ -75,7 +75,9 @@ docker-compose up -d
 
 ### 5 . 导入zentao.sql
 
-创建一个名为：zentao  的数据库 , 将事先 导出 的zentao.sql 数据库 导入到数据库中：注意：编码为 UTF8 - utf8-general-ci
+创建一个名为：zentao  的数据库 , 将事先 导出 的zentao.sql 数据库 导入到数据库中。
+
+注意：编码为 UTF8 - utf8-general-ci
 
 ### 6 .配置Nginx转发
 
