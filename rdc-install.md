@@ -33,7 +33,7 @@ Docker ,Docker-compose
     # 创建nfs-client的目录，也是gitlab容器的卷要挂载的目录
     mkdir /mnt/docker/rdc -p
 
-    # 写入配置文件，其中`172.29.1.54:/mnt/nfs/rdc`为nfs服务器端ip地址和gitlab的文件共享目录，`/mnt/docker/rdc`为上面创建的目录，即rdc的容器要挂载的目录
+    # 写入配置文件，其中`172.29.1.54:/mnt/nfs/rdc`为nfs服务器端ip地址和rdc的文件共享目录，`/mnt/docker/rdc`为上面创建的目录，即rdc的容器要挂载的目录
     echo '172.29.1.54:/mnt/nfs/rdc  /mnt/docker/rdc      nfs auto,nofail,noatime,nolock,intr,tcp,actimeo=1800 0 0'  >> /etc/fstab
 
     # 挂载目录，使配置生效
