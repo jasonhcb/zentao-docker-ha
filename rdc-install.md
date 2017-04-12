@@ -20,7 +20,7 @@ Docker ,Docker-compose
     # 创建gitlab的文件目录
     mkdir /mnt/nfs/rdc -p
 
-    # 写入配置文件，`/mnt/nfs/gitlab`为上面创建的目录，`172.29.0.0/16`为要连接到这台文件服务器的客户端的ip地址，这里使用的是掩码的方式。代表255.255
+    # 写入配置文件，`/mnt/nfs/rdc`为上面创建的目录，`172.29.0.0/16`为要连接到这台文件服务器的客户端的ip地址，这里使用的是掩码的方式。代表255.255
     echo '/mnt/nfs/rdc   172.29.0.0/16(rw,sync,no_root_squash,no_all_squash)'  >> /etc/exports
 
     # 重启服务使配置生效
