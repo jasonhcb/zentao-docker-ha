@@ -58,10 +58,22 @@ Docker ,Docker-compose
 ```
 #进入下载目录运行docker-compose
 
-docker-compose up -d 
+docker-compose up -d
 ```
 
 ### 4 . 将备份数据资料导入到相对应nfs
+
+从 迁移 服务器 拷贝文件 到 nfs 文件夹
+
+| 服务器文件夹 | nfs文件夹 |
+| :--- | :--- |
+| zentaopms/www/data | /mnt/docker/rdc/www/data |
+| zentaopms/tmp/backup | /mnt/docker/rdc/tmp/backup |
+| zentaopms/module/hdc/data | /mnt/docker/rdc/module/hdc/data/ |
+| zentaopms/module/bulletin/data | /mnt/docker/rdc/module/bulletin/data |
+| zentaopms/config | /mnt/docker/rdc/config |
+
+### 5 . 导入zentao.sql
 
 
 
