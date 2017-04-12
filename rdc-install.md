@@ -63,6 +63,23 @@ Docker ,Docker-compose
 docker-compose up -d
 ```
 
+#### 3.2 构建node2节点
+
+```
+#构建 node2 节点，节点包括以下镜像：
+(1) . zentao
+```
+
+下载地址：[docker-compose.yml](./node2/docker-compose.yml)
+
+构建步骤如下：
+
+```
+#进入下载目录运行docker-compose
+
+docker-compose up -d
+```
+
 ### 4 . 将备份数据资料导入到对应nfs
 
 从 迁移 服务器 拷贝文件 到 nfs 文件夹
